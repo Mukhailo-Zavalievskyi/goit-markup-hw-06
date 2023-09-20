@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -25,7 +26,12 @@
                     <li class="menu-item"><a class="menu-link link item-contacts" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="contacts">
+            <button class="open-mobile-menu-btn">
+                <svg class="open-mobile-menu-icon" width="24" height="24" aria-label="mobile menu open icon">
+                    <use href="./images/icons.svg#icon-burger"></use>
+                </svg>
+            </button>
+            <address class=" contacts">
                 <ul class="contacts list">
                     <li class="contacts-item"><a class="contacts-link link"
                             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -37,8 +43,8 @@
         </div>
     </header>
     <main>
-        <!--HARO SECTION-->
-        <section class="haro">
+        <!--HERO SECTION-->
+        <section class="hero">
             <div class="container">
                 <h1 class="main-titel">Effective Solutions for Your Business</h1>
                 <button class="service-button" type="button">Order Service</button>
@@ -56,10 +62,8 @@
                             </svg>
                         </div>
                         <h3 class="peculiarities-list-title list-title">Strategy</h3>
-                        <p class="peculiarities-list-text list-text">Our goal is to identify the business problem to
-                            walk away
-                            with
-                            the perfect and creative solution.
+                        <p class="peculiarities-list-text list-text">Our goal is to identify the business
+                            problem to walk away with the perfect and creative solution.
                         </p>
                     </li>
                     <li class="peculiarities-list-item">
@@ -417,7 +421,7 @@
         </div>
     </footer>
     <!--MODAL WINDOW-->
-    <div class="backdrop is-open ">
+    <div class="backdrop is-open">
         <div class="modal">
             <button class="close-btn" type="button">
                 <svg class="close-btn-icon" width="8" height="8" aria-label="modal closw icon">
@@ -475,6 +479,68 @@
                 </div>
                 <button class="reviev-form-submit-button" type="submit">Send</button>
             </form>
+        </div>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+        <button class="mobile-menu-close-btn">
+            <svg class="mobile-menu-close-icon" width="8" height="8" aria-label="mobile menu close icon">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav class="menu-navigation">
+            <ul class="mobile-menu-list">
+                <li class="menu-item"><a class="menu-link link item-studio" href="./index.html">Studio</a>
+                </li>
+                <li class="menu-item"><a class="menu-link link item-portfolio" href="">Portfolio</a>
+                </li>
+                <li class="menu-item"><a class="menu-link link item-contacts" href="">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <address class=" mobile-menu-contacts">
+            <ul class="mobile-menu-contacts-list list">
+                <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link link"
+                        href="tel:+110001111111">+11 (000)
+                        111-11-11</a>
+                </li>
+                <li class="mobile-menu-contacts-item"><a class="mobile-menu-contacts-link link"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+        </address>
+        <div class="mobile-menu-social-container">
+            <ul class="social-mobile-menu-list">
+                <li class="social-mobile-menu-item">
+                    <a class="social-mobile-menu-link" href="">
+                        <svg class="social-mobile-menu-icons" width="24" height="24" aria-label="instagram">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-mobile-menu-item">
+                    <a class="social-mobile-menu-link" href="">
+                        <svg class="social-mobile-menu-icons" width="24" height="24" aria-label="twitter">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-mobile-menu-item">
+                    <a class="social-mobile-menu-link" href="">
+                        <svg class="social-mobile-menu-icons" width="24" height="24" aria-label="facebook">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-mobile-menu-item">
+                    <a class="social-mobile-menu-link" href="">
+                        <svg class="social-mobile-menu-icons" width="24" height="24" aria-label="linkedin">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
