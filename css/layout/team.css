@@ -88,8 +88,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 64px 24px;
-        padding-left: 92px;
-        padding-right: 92px;
+        justify-content: center;
     }
 
     .team {
@@ -98,8 +97,11 @@
         padding-bottom: 96px;
     }
 
+    .team-container {
+        width: 584px;
+    }
+
     .team-list-item {
-        width: 264px;
         background-color: #FFFFFF;
         width: calc((100% - 24px) / 2);
         border-radius: 0 0 4px 4px;
@@ -160,7 +162,11 @@
     }
 }
 
-@media screen and (min-width:1168px) {
+@media screen and (min-width:1158px) {
+    .team-container {
+        width: 1158px;
+    }
+
     .team-list {
         display: flex;
         gap: 24px;
