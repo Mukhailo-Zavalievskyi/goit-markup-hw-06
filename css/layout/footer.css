@@ -12,11 +12,12 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
         width: 288px;
-        margin-bottom: 72px;
     }
 
-    .only-footer-logo-container {
+    .footer-logo-container {
+        margin-bottom: 72px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
@@ -96,11 +97,6 @@
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-
-    .footer-subscribe-label {
-        /* margin-bottom: 24px; */
-    }
-
 
     .footer-subscribe-input {
         background-color: transparent;
@@ -229,8 +225,8 @@
         row-gap: 72px;
         column-gap: 24px;
         align-items: baseline;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .social-footer-icons {
@@ -320,6 +316,7 @@
     .footer-container {
         width: 1158px;
         padding-left: 15px;
+        padding-right: 15px;
         align-items: baseline;
         flex-wrap: nowrap;
         gap: 0;
