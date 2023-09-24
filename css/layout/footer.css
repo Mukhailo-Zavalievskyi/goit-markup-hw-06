@@ -53,9 +53,8 @@
 
     .social-footer-list {
         display: flex;
+        justify-content: center;
         gap: 16px;
-        padding-right: 40px;
-        padding-left: 40px;
     }
 
     .social-footer-item {
